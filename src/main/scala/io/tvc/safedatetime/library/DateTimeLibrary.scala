@@ -1,5 +1,6 @@
-package uk.co.carefulcoder.date.datetimelibrary
-import uk.co.carefulcoder.date.TimeZone
+package io.tvc.safedatetime.library
+
+import io.tvc.safedatetime.TimeZone
 
 trait DateTimeLibrary[L, Z] {
   def isZone(zoned: Z, tz: TimeZone): Boolean

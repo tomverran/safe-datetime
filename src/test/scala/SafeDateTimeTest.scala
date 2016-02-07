@@ -1,8 +1,8 @@
 import java.time.{ZoneId, ZonedDateTime}
 import org.specs2.mutable.Specification
-import uk.co.carefulcoder.date.SafeDateTime._
-import uk.co.carefulcoder.date.datetimelibrary.JavaTime._
-import uk.co.carefulcoder.date.TimeZone.{America, Europe}
+import io.tvc.safedatetime.SafeDateTime._
+import io.tvc.safedatetime.library.JavaTime._
+import io.tvc.safedatetime.TimeZone.{America, Europe}
 import scala.language.implicitConversions
 import scala.util.Try
 

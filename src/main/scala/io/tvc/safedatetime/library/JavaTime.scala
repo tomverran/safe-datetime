@@ -1,6 +1,7 @@
-package uk.co.carefulcoder.date.datetimelibrary
+package io.tvc.safedatetime.library
+
 import java.time.{ZoneId, ZonedDateTime, LocalDateTime}
-import uk.co.carefulcoder.date.{TimeZone, SafeDateTime}
+import io.tvc.safedatetime.{TimeZone, SafeDateTime}
 
 object JavaTime {
   type DateTime[T <: TimeZone] = SafeDateTime[T, LocalDateTime, ZonedDateTime]

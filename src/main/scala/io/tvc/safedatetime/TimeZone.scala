@@ -1,5 +1,13 @@
-package uk.co.carefulcoder.date
+package io.tvc.safedatetime
+
 case class TimeZone(id: String)
+
+/*
+ * So this file consists of timezone objects that can be resolved implicitly
+ * It also has type aliases so you don't need to add .type after them all
+ *
+ * There has to be a better way of doing this surely :(
+ */
 
 object TimeZone {
   object Australia {

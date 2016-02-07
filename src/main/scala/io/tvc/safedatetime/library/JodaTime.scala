@@ -1,8 +1,7 @@
-package uk.co.carefulcoder.date.datetimelibrary
-
+package io.tvc.safedatetime.library
 
 import org.joda.time.{DateTime => JodaDateTime, LocalDateTime, DateTimeZone}
-import uk.co.carefulcoder.date.{SafeDateTime, TimeZone}
+import io.tvc.safedatetime.{SafeDateTime, TimeZone}
 
 object JodaTime {
   type DateTime[T <: TimeZone] = SafeDateTime[T, LocalDateTime, JodaDateTime]

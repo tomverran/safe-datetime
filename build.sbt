@@ -1,4 +1,4 @@
-name := "uk.co.carefulcoder.safedatetime.SafeDateTime"
+name := "io.tvc.safedatetime.SafeDateTime"
 
 version := "1.0"
 

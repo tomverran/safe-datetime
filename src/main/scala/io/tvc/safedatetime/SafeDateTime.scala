@@ -1,5 +1,6 @@
-package uk.co.carefulcoder.date
-import uk.co.carefulcoder.date.datetimelibrary.DateTimeLibrary
+package io.tvc.safedatetime
+
+import io.tvc.safedatetime.library.DateTimeLibrary
 
 // a safe date time has a timezone, local time and zoned time
 case class SafeDateTime[T <: TimeZone, L, Z](local: L)
