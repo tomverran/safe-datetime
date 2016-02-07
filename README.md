@@ -10,6 +10,14 @@ DateTime.withZoneSameInstant(ZoneId.for("Europe/London"))
 
 ## Usage
 
+This project is currently hosted on bintray.
+Add the following to your build.sbt to get started:
+
+```
+resolvers += Resolver.bintrayRepo("javaguychronox", "maven")
+libraryDependencies += "safe-datetime" %% "safe-datetime" % "0.1"
+```
+
 #### Imports
 
 This library works with both Joda and Java time libraries through the `DateTimeLibrary` typeclass.
