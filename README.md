@@ -15,7 +15,7 @@ Add the following to your build.sbt to get started:
 
 ```
 resolvers += Resolver.bintrayRepo("javaguychronox", "maven")
-libraryDependencies += "safe-datetime" %% "safe-datetime" % "0.1"
+libraryDependencies += "io.tvc" %% "safe-datetime" % "0.1"
 ```
 
 #### Imports
